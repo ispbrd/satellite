@@ -25,7 +25,7 @@ with st.sidebar:
                           value=None, key="1")
     long = st.number_input('Longitude:', placeholder="Insert Longitude, i.e., -86.74384", format="%.6f", step=None,
                            value=None, key="2")
-    zm = st.number_input('Zoom:', placeholder="Insert Zoom, i.e., 15, with increment of 5", format="%.0f", step=None, value=None, key="3")
+    zm = st.number_input('Zoom:', placeholder="Insert Zoom, i.e., 15, increment of 5", format="%.0f", step=None, value=None, key="3")
 
     ht = st.number_input('Height:', placeholder="Insert Height, i.e., 640", format="%.0f", step=None, value=None,
                          key="4")
